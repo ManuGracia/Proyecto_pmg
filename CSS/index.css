@@ -13,75 +13,73 @@ body {
 }
 
 header {
-background-color:   #040b12 ;
-    background-size: cover; 
-    width: 100%;
- }
-
-     
-ul {list-style-type: none;
-display: flex;
-align-items: center;
-gap: 1rem;
-margin-right: 40px;
-
-} 
-
-nav { display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.logo{ 
-    width: 150px;
-    border-radius: 90px;
-    display: flex;
-    justify-content: center;
-    background-position: left top;
-    background-size: cover;
-    margin-left: 30px;
-    margin-top: 5px;
-}
-
-a {
-   text-decoration: none; 
-color: white;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-transform: uppercase;
-padding: 0.5rem 0.5rem;
-font-size: 20px;
-display:block;
-border-radius: 5px;
-display: flex;
-border: 0.5px solid #043241;
-
-}
-
-.menu__item:hover{
-  background-color:  #043241  ;
-  transition: background-color 1s;
-}
-
-@media(max-width: 600px){
-  .header {
-    padding: 10px;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .logo {
-  width: 100px;
-}
-a{
-  font-size: 15px;
-  padding: 0px;
-}
-.menu {
+  background-color:   #040b12 ;
+      background-size: cover; 
+      width: 100%;
+   }
   
-}
-.menu .menu__item {
- font-size: var(--text-base);
-}
-}
+       
+  ul {list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 40px;
+  
+  } 
+  
+  nav { display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .logo{ 
+      width: 150px;
+      border-radius: 90px;
+      display: flex;
+      justify-content: center;
+      background-position: left top;
+      background-size: cover;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  
+  a {
+     text-decoration: none; 
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  font-size: 20px;
+  display:block;
+  border-radius: 5px;
+  display: flex;
+  border: 0.5px solid #043241;
+  
+  }
+  
+  .menu__item:hover{
+    background-color:  #043241  ;
+    transition: background-color 1s;
+  }
+  
+  @media(max-width: 600px){
+    .header {
+      padding: 10px;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .logo {
+    width: 100px;
+  }
+  a{
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .menu .menu__item {
+   font-size: var(--text-base);
+  }
+  }
 /*footer*/
 
 footer {
